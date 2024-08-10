@@ -36,7 +36,9 @@ Line n + 1: Trailer- YYYYMMDDHHSS, total no of records, file name, in CSV format
 
 Output file- excel sheet:
 
-Line 1: Header - YYYYMMDDHHSS FILE_NAME SHORT ONE LINE DESCRIPTION OF REQUIREMENTS in CSV format
+Line 1: Header - YYYYMMDDHHSS FILE_NAME SHORT ONE LINE DESCRIPTION OF REQUIREMENTS in CSV format - removed
+Line 2: FIELD 1, FIELD 2, SUBFIELD 1, FIELD 3,SUBFIELD 4,......,FIELD N - From CSVconverter2.py
+Line 3 onwards: Data from input CSV file. (Trailer will be removed)
 
 Caution: It is better to create the virtual environment using IDEs like Pycharm
 
