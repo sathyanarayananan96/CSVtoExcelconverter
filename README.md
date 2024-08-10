@@ -1,4 +1,4 @@
-# CSVtoExcelconverter
+# CSV to Excel Converter
 Python based desktop application for Windows which converts CSV files into an excel sheet
 
 This is a simple software application which converts files in the CSV format into an user-friendly, readable excel workbook. It utilizes the Pandas, xlsxwriter and Tkinter libraries to help users select the CSV file they need to convert, modify field (column) names and store the final excel workbook in the required folder/directory.
