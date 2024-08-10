@@ -28,10 +28,9 @@ def clickcheck(input):
 
 
 window=Tk()
-#bg=PhotoImage(file='bgp3.png')
 #bglabl=Label(window,image=bg)
 #bglabl.place(x=0,y=0)
-btnctaf=Button(window, text="CTAF", fg='black',command=lambda:clickcheck(1))
+btnctaf=Button(window, text="Sample CSV", fg='black',command=lambda:clickcheck(1))
 btnctaf.place(x=100, y=120)
 btncustrep=Button(window, text='Custom Report', fg='black',command=lambda:clickcheck(2))
 btncustrep.place(x=150, y=120)
