@@ -26,7 +26,17 @@ Installation steps- using Windows command prompt and Python IDLE:
 - Add or remove as many fields as required
 
 Steps to run the application on Python IDLE:
-- Open python IDLE on your desktop and open the guitest.py script from your project folder. Select the run->Run module option or press F5. A window will pop up with the usual prompts and listboxes, asking for the input CSV file
+- Open python IDLE on your desktop and open the guitest.py script from your project folder. Select the run->Run module option or press F5. A window will pop up with the usual prompts and listboxes, asking for the input CSV file. Multiple files can be selected. Please ensure that only txt files are selected as the input.
+
+Input CSV file: Sample format:
+
+Line 1: Header - YYYYMMDDHHSS FILE_NAME SHORT ONE LINE DESCRIPTION OF REQUIREMENTS in CSV format
+Lines 2 - n: CSV records- field1,field2,.....,fieldn
+Line n + 1: Trailer- YYYYMMDDHHSS, total no of records, file name, in CSV format
+
+Output file- excel sheet:
+
+Line 1: Header - YYYYMMDDHHSS FILE_NAME SHORT ONE LINE DESCRIPTION OF REQUIREMENTS in CSV format
 
 Caution: It is better to create the virtual environment using IDEs like Pycharm
 
@@ -43,6 +53,6 @@ XlsxWriter: https://xlsxwriter.readthedocs.io/
 
 Tkinter: https://docs.python.org/3/library/tk.html
 
-Running the application:
+
 
 
